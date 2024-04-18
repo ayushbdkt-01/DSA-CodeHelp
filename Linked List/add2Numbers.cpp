@@ -44,7 +44,6 @@ void reverse(struct node* head){
 }
 
 void add(struct node* head1,struct node* head2){
-
 }
 
 int main(){
@@ -52,6 +51,7 @@ int main(){
 struct node* head1=NULL;
 struct node* head2=NULL;
 struct node* ansHead=NULL;
+    
     insertAtHead(head1,10);
     print(head1);
     insertAtHead(head1,20);
